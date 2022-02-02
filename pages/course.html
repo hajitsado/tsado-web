@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University website design - Easy Tutorials</title>
+    <link rel="stylesheet" href="../asset/css/course.css">
+    <script src="https://kit.fontawesome.com/32c41353e6.js"crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+ <section class="sub-header">
+   <nav>
+       <a href="index.html"><img src="../asset/img/logo.png"></a>
+       <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+               <ul>
+               <li><a href="../index.html">HOME</a></li>
+               <li><a href="./about.html">ABOUT</a></li>
+               <li><a href="./course.html">COURSE</a></li>
+               <li><a href="./blog.html">BLOG</a></li>
+               <li><a href="./contact.html">CONTACT</a></li>
+           </ul>
+       </div>
+<i class="fa fa-bars" onclick="showMenu()" ></i>
+   </nav> 
+   <h1>Our course</h1>
+   <!--------JavaScript for Toggle Menu------>
+   <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+   </script>
+
+ </section>
+<section class="course">
+     <h1>Courses We Offer</h1>
+     <p>loren ipsum dolor sit amet, consectur adipiscing elit.</p>
+     <div class="row">
+        <div class="course-col">
+            <h3>intermediate</h3>
+            <P>A legend arose in the 14th century that the college was founded by King Alfred in 872.This explains why the college arms are those attributed to King  Alfred, why the Visitor is always the reigning monarch, and why the college celebrated its millennium in 1872.
+             Most agree that in reality the college was founded in 1249 by William of Durham. He bequeathed money to support ten or twelve masters of arts studying divinity, and a property which became known as Aula Universitatis (University Hall) was bought in 1253.[8] This later date still allows the claim that Univ is the oldest of the Oxford colleges, although this is contested by Balliol College and Merton College.
+              Univ was only open to fellows studying theology until the 16th century.</P>
+        </div>
+        <div class="course-col">
+            <h3>Degree</h3>
+            <P>A legend arose in the 14th century that the college was founded by King Alfred in 872.This explains why the college arms are those attributed to King  Alfred, why the Visitor is always the reigning monarch, and why the college celebrated its millennium in 1872.
+             Most agree that in reality the college was founded in 1249 by William of Durham. He bequeathed money to support ten or twelve masters of arts studying divinity, and a property which became known as Aula Universitatis (University Hall) was bought in 1253.[8] This later date still allows the claim that Univ is the oldest of the Oxford colleges, although this is contested by Balliol College and Merton College.
+              Univ was only open to fellows studying theology until the 16th century.</P>
+        </div>
+        <div class="course-col">
+            <h3>Post graduate</h3>
+            <P>A legend arose in the 14th century that the college was founded by King Alfred in 872.This explains why the college arms are those attributed to King  Alfred, why the Visitor is always the reigning monarch, and why the college celebrated its millennium in 1872.
+             Most agree that in reality the college was founded in 1249 by William of Durham. He bequeathed money to support ten or twelve masters of arts studying divinity, and a property which became known as Aula Universitatis (University Hall) was bought in 1253.[8] This later date still allows the claim that Univ is the oldest of the Oxford colleges, although this is contested by Balliol College and Merton College.
+              Univ was only open to fellows studying theology until the 16th century.</P>
+        </div>
+     </div>
+ </section>
+ 
+<section class="footer">
+    <h4>About us</h4>
+    <P>The college is associated with a number of influential people, including Clement Attlee, Harold Wilson, Bill Clinton, Neil Gorsuch, Stephen Hawking, C. S. Lewis,<br> V. S. Naipaul, Robert Reich, William Beveridge, Bob Hawke, Robert Cecil, and Percy Bysshe</p>
+    </P>
+    <div class="icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-linkedin-in"></i>
+    </div>
+    <p>made with<i class="fas fa-heart"></i>by easy Tutorials</p>
+</section>
+</body>
+</html>
